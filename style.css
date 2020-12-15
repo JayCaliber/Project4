@@ -1,0 +1,176 @@
+.moon {
+  background-color: grey;
+  background-image: url("moon.jpg");
+  background-size: 100% 87%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+ 
+}
+
+p { 
+ color: white;
+ font-family: georgia;
+}
+
+h1 {
+  text-align: center;
+  font-family: trebuchet ms;
+  font-size: 100px;
+  color: green;
+}
+
+h2 {
+ color: red;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 500px;
+  border: 5px black;
+  float: left;
+  margin: 50px 50px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+  border: 5px solid black;
+}
+
+.flip-card-back {
+  background-color: purple;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-family: georgia;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.parallax1 {
+  background-image: url("Villain.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+.parallax21 {
+  background-image: url("Hero.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+.parallax22 {
+  background-image: url("Hero copy.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+.parallax23 {
+  background-image: url("Hero copy 2.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+.parallax24 {
+  background-image: url("Hero copy 3.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+.parallax25 {
+  background-image: url("Hero copy 4.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+.parallax26 {
+  background-image: url("Hero copy 5.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+.parallax27 {
+  background-image: url("Hero copy 6.jpeg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
